@@ -1,6 +1,6 @@
-# Leptos Counters Example
+# Leptos Front Template
 
-This example showcases a basic leptos app with many counters. It is a good example of how to setup a basic reactive app with signals and effects, and how to interact with browser events.
+This is built off basic counter example found in leptos main repo at https://github.com/leptos-rs/leptos
 
 ## Client Side Rendering
 

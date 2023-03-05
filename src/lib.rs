@@ -85,9 +85,7 @@ fn Counter(
 ) -> impl IntoView {
     let CounterUpdater { set_counters } = use_context(cx).unwrap();
 
-    let input = move |ev| {
-        set_value(event_target_value(&ev).parse::<i32>().unwrap_or_default())
-    };
+    let input = move |ev| set_value(event_target_value(&ev).parse::<i32>().unwrap_or_default());
 
     // just an example of how a cleanup function works
     // this will run when the scope is disposed, i.e., when this row is deleted
